@@ -1,0 +1,477 @@
+:root{
+    --azul: #1f3e72 ;
+    --fondo: #ffffff;
+    --logoColor: linear-gradient(to left, #2848c6, #2d4cca, #3150ce, #3555d2, #3959d6);
+}
+h2,h3{
+    color: #1f3e72;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: var(--fondo);
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.contenedor{
+    width: 100%;
+    margin: auto;
+}
+
+header{
+    padding: 30px 0;
+    
+}
+
+header .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header .logotipo{
+    font-weight: 700;
+    color: #3858d6;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 80px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #728097;
+    margin-right: 80px;
+    
+    font-size: 20px;
+}
+
+header span{
+    background: #e8f2fc;
+    padding:55px 0px;
+    margin: 0% 0%;
+
+}
+
+header nav .botonNav{
+    background: linear-gradient(to right, #3858d6, #3454d2, #304fcd, #2c4bc9, #2747c5);/* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+header nav .botonNav:hover{
+    background: linear-gradient(to left, #3858d6, #3454d2, #304fcd, #2c4bc9, #2747c5);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+   
+}
+
+p{
+    font-size: 20px;
+    font-weight: 100;
+    color: #6d7b93;
+}
+
+.contenedorPrincipal{
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.nurse_img{
+    text-align: center;
+    background: linear-gradient(to left, #2b6fdd, #1a79e0, #0782e3, #008be4, #0d94e5);
+    z-index: 0;
+    
+}
+.nurse_img--left{
+    text-align: center;
+}
+.nurse1{
+    max-width: 80%;
+    margin-bottom: -5px;
+}
+
+.container_Text{
+    align-items: center;
+    max-width: 80%;
+    margin-left: 80px;
+    margin-top: 10%;
+}
+
+.title{
+    font-size: 70px;
+    font-weight: bolder;
+    color: var(--azul);
+    margin-top: 20px;
+    
+}
+
+.titleParagraph{
+    font-size: 20px;
+    font-weight: 100;
+    color: #728097;
+    margin-top: 20px;
+}
+
+.bestProtection, .selectedVaccines{
+    background-color: transparent;
+    border: none;
+    color: #1f3e72;
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.selectedVaccines{
+    margin-left: 30px;
+}
+
+.icono1, .icono2{
+    color: #ffd012;
+    margin-right: 10px;
+}
+
+.containerButtons{
+    margin-top: 50px;
+}
+
+.schedule{
+    position: relative;
+    top: -200px ;
+    left: 80px;
+    color: #1f3e72;
+    font-size: 17px;
+}
+
+.schedule i{
+    color:#3555d3;
+}
+
+.submit{
+    padding: 30px;
+    background: var(--fondo);
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-evenly;    
+    align-items: center;
+    width: 60%;
+    position: relative;
+    top: -170px;
+    z-index: 1;
+    box-shadow: 0px 5px 10px 0px #98ccec;
+    
+}
+
+.submitButton{
+    background: linear-gradient(to right, #3858d6, #3454d2, #304fcd, #2c4bc9, #2747c5);
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.submit i{
+    color:#3555d3;
+    margin-right: 10px;
+}
+
+.submit h3{
+    color: #728097;
+}
+
+.submit p{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-weight: 600;
+    color: #1f3e72;
+}
+
+.vaccinesLogos{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    justify-content: space-between;
+    
+    margin-left: 70px;
+    margin-right:80px;
+    position: relative;
+    top: -80px;
+}
+
+.vaccinesLogos div img{
+    width: 300px;
+}
+
+.text2{
+    margin-left: 70px;
+    font-size: 25px;
+    font-weight: 100;
+    color: #1f3e72;
+    margin-top: 40px;
+}
+
+.text2 p{
+    margin-top:30px;
+    font-size: 20px;
+}
+
+.benefits{
+    display: flex;
+    justify-content: space-between;
+    max-width: auto;
+    margin-left: 90px;
+    margin-right:80px;
+    margin-top: 90px;
+}
+
+.benefits i{
+    color: #3555d3;
+    padding: 10px 10px;
+    border-radius: 8px;
+    background: #f1f5ff;
+}
+
+.benefits h3{
+    font-size: 25px;
+    font-weight: 400;
+    color: #1f3e72;
+    margin-top: 30px;
+}
+.benefits p{
+    font-size: 20px;
+    font-weight: 100;
+    color: #728097;
+    margin-top: 15px;
+}
+.preparations{
+
+    display: flex;
+    justify-content: space-between;
+    max-width: auto;
+    margin-left: 90px;
+    margin-right:80px;
+    margin-top: 150px;
+}
+.girl{
+    margin-top: 120px;
+    display: block;
+    
+}
+
+.subtitlePreparations{
+    font-size: 35px;
+    font-weight: bold;
+    color: #1f3e72;
+    margin-bottom: 40px;
+}
+
+.list{
+    margin-top: 150px;
+    min-height: 567px;
+    
+}
+
+.list .row{
+    display:flex;
+    
+    align-items: baseline;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 50px;
+}
+
+.list .row .col{
+    display: block;
+    
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 100px;
+    font-weight: 500;
+}
+
+.list i{
+    color: #3555d3;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background: #f1f5ff;
+}
+
+.emergencyContact{
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 80px;
+    margin-left: 20px;
+
+}
+
+.emergencyContact div{
+    
+    flex-basis: 40%;
+    margin-bottom: 20px;
+}
+
+.contact{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.contact .numbers{
+    margin-top: 280px;
+    margin-left: 100px;
+    height: 20rem;
+    width: 30%;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px 40px;
+    row-gap: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.numbers .card{
+    flex-grow: 1;
+    flex-basis: 45%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.numbers .card i{
+    color: #0782e3;
+    margin-right: 20px;
+    padding: 10px 10px;
+    background: #f1f5ff;
+    border-radius: 10px;
+}
+.card .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+        
+}
+.card .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.card .row button{
+    background: #f1f5ff;
+    border: none;
+    color: #3454d2;
+    padding: 20px 40px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+    margin-top:30px;
+    cursor: pointer;
+}
+.card .row button:hover{
+    color: #f1f5ff;
+    
+    background: #3454d2;
+    
+}
+.contact .nurse2{
+    background: linear-gradient(to top, #1689e3 75%, white 25%);
+    
+}
+
+footer{
+    min-height: 250px;
+    background: #eef3ff;
+}
+
+footer .row{
+    display:flex;
+    justify-content: space-around;
+    align-items: initial;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+footer .row .col{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+    
+}
+
+footer .row .col p, h2{
+    margin-block-start: 0px;
+    margin-block-end: 10px;
+    margin-inline-start: 0px;
+    margin-inline-end: 300px;
+}
+
+footer ul li{
+    list-style: none;
+    display:list-item;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+
+}
+footer a{
+    color: #728097;
+    text-decoration: none;
+}
+
+footer .last{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+
+.last .col a{
+    font-size: 14px;
+}
+
+
+footer .last .col1{
+    margin-inline-start: 50px;
+    margin-inline-end: 450px;
+    
+}
+
+footer h2{
+    color: #3656d4;
+}
+
+footer h3{
+    color: #1f3e72;
+}
+.col1 a{
+    font-size: 14px;
+}
+
